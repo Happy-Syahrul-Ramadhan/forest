@@ -31,7 +31,7 @@ jobs:
           git config --local user.email "syahrul19112003@gmail.com"
           git config --local user.name "Happy-Syahrul-Ramadhan"
           git add -A
-          git commit -m "What are you looking for?"
+          git commit -m "What are you looking for this?"
           
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0

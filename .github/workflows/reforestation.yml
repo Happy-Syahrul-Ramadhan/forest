@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "27 3 * * *"  
+    - cron: "28 3 * * *"
     
 jobs:
   auto_commit:
@@ -35,7 +35,7 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "what are you looking for?"
           
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.8.0
